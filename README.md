@@ -1,12 +1,43 @@
-# React + Vite
+# 📚 BookFinder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BookFinder is a React + Tailwind CSS web app that allows users to search for books by **title, author, or subject** using the OpenLibrary API.  
+It provides a clean, responsive, and user-friendly interface for book discovery.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+🔗 [BookFinder on Netlify](https://silver-kheer-a01f5a.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- 🔍 Search books by **title, author, or subject**
+- 📖 Displays book cover, title, author, and year
+- 📱 Fully responsive design (mobile + desktop)
+- ⏳ Loading and error handling
+- 🧾 Paginated results for better navigation
+- 🎨 Styled with **Tailwind CSS**
+
+---
+
+## 🛠️ Tech Stack
+- **React (Vite)**
+- **Tailwind CSS**
+- **OpenLibrary API**
+- **Netlify (Deployment)**
+
+---
+
+## 📦 Installation & Setup
+
+Clone the repository:
+```bash
+git clone https://github.com/sandeep-saw1/BookFinder.git
+cd BookFinder
+npm install
+npm run dev
+
+## 👨‍💻 Author
+**Sandeep Saw**  
+[![GitHub](https://img.shields.io/badge/GitHub-sandeep--saw1-black?logo=github)](https://github.com/sandeep-saw1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sandeep%20Saw-blue?logo=linkedin)](https://www.linkedin.com/in/sandeep-saw-74402b28b)
